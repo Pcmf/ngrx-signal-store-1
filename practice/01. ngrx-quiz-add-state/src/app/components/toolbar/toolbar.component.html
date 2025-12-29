@@ -2,3 +2,12 @@
     <mat-icon>{{icon()}}</mat-icon>
 }
 {{caption()}}
+
+<div class="spacer"></div>
+<div class="action">
+  <button mat-icon-button (click)="reset.emit()">
+    <mat-icon>restart_alt</mat-icon>
+  </button>
+</div>
+
+
